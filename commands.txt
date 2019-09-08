@@ -1,0 +1,9 @@
+npm test -- --cucumberOpts.tagExpression="not @wip"
+
+-------For Allure-------
+1- Open the power shell and install allure commandline
+ > npm install allure-commandline
+2- To generate allure reports
+ > npx allure generate   ==>> npx is the shortcut of running the app installed locally (./node_modules/.bin/allure_commandline etc.)
+3- To open the allure reports
+ > npx allure open

@@ -1,0 +1,37 @@
+{
+  "name": "webdriverio_cucumber_latest",
+  "version": "1.0.0",
+  "description": "Demo Webdriverio Cucumber Framework to automate robotic site http://www.kevinlamping.com/webdriverio-course-content/",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeltechSol/webdriverio_cucumber_latest.git"
+  },
+  "keywords": [
+    "webdriverio",
+    "cucumber"
+  ],
+  "author": "Khurram Syed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SeltechSol/webdriverio_cucumber_latest/issues"
+  },
+  "homepage": "https://github.com/SeltechSol/webdriverio_cucumber_latest#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "date-and-time": "^0.9.0",
+    "glob": "^7.1.4",
+    "multiple-cucumber-html-reporter": "^1.13.1",
+    "wdio-allure-reporter": "^0.8.3",
+    "wdio-cucumber-framework": "^2.2.8",
+    "wdio-dot-reporter": "0.0.10",
+    "wdio-junit-reporter": "^0.4.4",
+    "wdio-multiple-cucumber-html-reporter": "^0.3.3",
+    "wdio-selenium-standalone-service": "0.0.12",
+    "wdio-spec-reporter": "^0.1.5",
+    "webdriverio": "^4.14.4"
+  }
+}
