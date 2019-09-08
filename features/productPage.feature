@@ -1,3 +1,4 @@
+@productFeature
 Feature: As a user, I have to check the Product page functionality 
 so that I can use it confidently
 

@@ -15,7 +15,8 @@ class ProductPage {
     get errorReviewText(){return $("//p[contains(.,'A review')]");};
     get reviewButton(){return $("//button[.='Submit Review']")}
     get reviewButtonSel(){return ("//button[.='Submit Review']")}
-    get reviewErrorMessages() {return $$('form-error is-visible')}
+    get reviewErrorMessages() {return $$('p.form-error.is-visible')}
+    get reviewErrorMessagesSel() {return ('p.form-error.is-visible')}
   
 }
 
